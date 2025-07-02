@@ -7,11 +7,11 @@
 .font_Inter {
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
-  font-weight: 20px;
+  line-height: 20px;
 }
 
 .font_NotoSerif {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 16px;
-  font-weight: 20px;
+  line-height: 20px;
 }
