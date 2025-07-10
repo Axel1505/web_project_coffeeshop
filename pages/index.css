@@ -18,6 +18,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav {
@@ -114,16 +116,11 @@
 }
 
 .header__footer {
-}
-
-.header__paragraph_date {
-  margin-left: 80px;
-}
-
-.header__paragraph_location {
+  margin-top: auto;
+  padding: 0 80px 40px;
   display: flex;
-  position: absolute;
-  right: 80px;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .content {
@@ -142,6 +139,7 @@
 }
 
 .recipes__title {
+  margin-top: 0;
   max-width: 580px;
   padding-top: 100px;
   margin-left: 80px;
