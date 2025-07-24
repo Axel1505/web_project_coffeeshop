@@ -115,7 +115,60 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reserva una mesa</h2>
+          <form class="reservation__form" name="reservation-form" novalidate>
+            <label class="reservation__label" for="nombre">Nombre *</label>
+            <input
+              class="form__input"
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Nombre"
+              required
+            />
+
+            <label class="reservation__label" for="comensales"
+              >Número de comensales *</label
+            >
+            <input
+              class="form__input"
+              type="number"
+              id="comensales"
+              name="comensales"
+              placeholder="1-8"
+              required
+            />
+
+            <label class="reservation__label" for="fecha">Fecha y hora *</label>
+            <input
+              class="form__input"
+              type="date"
+              id="fecha"
+              name="fecha"
+              required
+            />
+
+            <label class="reservation__label" for="correo"
+              >Tu correo electrónico *</label
+            >
+            <input
+              class="form__input"
+              type="email"
+              id="correo"
+              name="correo"
+              placeholder="email@email.com"
+              required
+            />
+
+            <button class="form__button" type="submit">Reserva una mesa</button>
+
+            <label class="reservation__label reservation__checkbox-label">
+              <input class="form__checkbox" type="checkbox" required />
+              Acepto los términos de uso
+            </label>
+          </form>
+        </section>
       </main>
       <footer class="footer" id="contact"></footer>
     </div>
