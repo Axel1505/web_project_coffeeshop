@@ -117,10 +117,14 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reserva una mesa</h2>
-          <form class="reservation__form" name="reservation-form" novalidate>
+          <form
+            class="reservation__form form"
+            name="reservation-form"
+            novalidate
+          >
             <label class="reservation__label" for="nombre">Nombre *</label>
             <input
-              class="form__input"
+              class="reservation__input"
               type="text"
               id="nombre"
               name="nombre"
@@ -132,7 +136,7 @@
               >Número de comensales *</label
             >
             <input
-              class="form__input"
+              class="reservation__input"
               type="number"
               id="comensales"
               name="comensales"
@@ -142,7 +146,7 @@
 
             <label class="reservation__label" for="fecha">Fecha y hora *</label>
             <input
-              class="form__input"
+              class="reservation__input"
               type="date"
               id="fecha"
               name="fecha"
@@ -153,7 +157,7 @@
               >Tu correo electrónico *</label
             >
             <input
-              class="form__input"
+              class="reservation__input"
               type="email"
               id="correo"
               name="correo"
@@ -161,10 +165,12 @@
               required
             />
 
-            <button class="form__button" type="submit">Reserva una mesa</button>
+            <button class="reservation__button" type="submit">
+              Reserva una mesa
+            </button>
 
             <label class="reservation__label reservation__checkbox-label">
-              <input class="form__checkbox" type="checkbox" required />
+              <input class="reservation__checkbox" type="checkbox" required />
               Acepto los términos de uso
             </label>
           </form>
