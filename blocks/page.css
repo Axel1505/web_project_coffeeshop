@@ -1,5 +1,4 @@
 .page {
-  height: 100vh;
   display: flex;
   flex-direction: column;
 
@@ -14,10 +13,7 @@
 }
 
 .content {
-  flex: 1;
-
-  min-height: 720px;
-  max-height: 800px;
+  display: block;
 
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
