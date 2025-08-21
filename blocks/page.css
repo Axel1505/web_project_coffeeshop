@@ -11,12 +11,3 @@
   font-size: 16px;
   line-height: 20px;
 }
-
-.content {
-  display: block;
-
-  background-color: #0a2750;
-  background-image: url(../images/background_recipes.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
